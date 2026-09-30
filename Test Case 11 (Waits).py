@@ -27,11 +27,11 @@ wait = WebDriverWait(driver, 15)
 
 # Wait for the username field and enter value
 username_input = wait.until(EC.presence_of_element_located((By.NAME, "username")))
-username_input.send_keys("usha_nazare45")
+username_input.send_keys("prashant_patil82")
 
 # Wait for the password field and enter value
 password_input = wait.until(EC.presence_of_element_located((By.NAME, "password")))
-password_input.send_keys("rushi2404")
+password_input.send_keys("prashant@123")
 
 # Wait for the login button to become clickable and click
 login_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']")))
